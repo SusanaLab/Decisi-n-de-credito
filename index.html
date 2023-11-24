@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./tarjeta.png" type="image/png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decisión de Crédito</title>
+
+  </head>
+  <body>
+
+    <h1>Decisión de crédito</h1>
+
+    <form class="formulario" id="formulario-credito">
+      <!-- Dropdown -->
+      <label for="opciones">Selecciona una opción:</label>
+      <select id="opciones" name="opciones" class="opciones-credito">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+
+      <br>
+
+
+      <label for="genero">Género:</label>
+   <div class="container-genero">   
+      <input type="radio" id="femenino" name="genero" value="femenino"
+        class="radio-genero">
+      <label for="femenino">Femenino</label>
+</div>
+  <div class="container-genero"> 
+      <input type="radio" id="masculino" name="genero" value="masculino"
+        class="radio-genero">
+      <label for="masculino">Masculino</label>
+</div>
+      <br>
+
+      <!-- Input de fecha -->
+      <label for="fecha">Fecha de inicio primer empleo:</label>
+      <input type="date" id="fecha" name="fecha" class="fecha-empleo">
+
+      <br>
+
+      <!-- Botón de envío -->
+      <input type="submit" value="Enviar" class="boton-enviar">
+    </form>
+
+    <section id="maximo" class="informacion-credito">
+      <h1 id="monto-maximo"></h1>
+      <h2>Monto máximo de crédito</h2>
+      <h3>Calculos basados en valores previamente establecidos</h3>
+      <p>Información adicional sobre el monto de crédito y cálculos.</p>
+    </section>
+    <section id="minimo" class="informacion-credito">
+      <h1 id="monto-minimo"></h1>
+      <h2>Monto minino de crédito</h2>
+      <h3>Calculos basados en valores previamente establecidos</h3>
+      <p>Información adicional sobre el monto de crédito y cálculos.</p>
+    </section>
+    <section id="linea" class="informacion-credito">
+      <h1 id="monto-linea"></h1>
+      <h2>Monto recomendado de credito</h2>
+      <h3>Calculos basados en valores previamente establecidos</h3>
+      <p>Información adicional sobre el monto de crédito y cálculos.</p>
+    </section>
+
+  </body>
+  <link rel="stylesheet" href="styles.css">
+  <script src="motor.js"></script>
+</html>
