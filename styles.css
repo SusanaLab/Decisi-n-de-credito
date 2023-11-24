@@ -4,7 +4,7 @@
         color: #333;
         margin: 0;
         padding: 0;
-          background: url('background.png') no-repeat center center fixed;
+          background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
     }
 
@@ -65,7 +65,7 @@
         border-radius: 25px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
               color: #ffffff;
-       background-color: #000000;
+
 }
 
     h2 {
